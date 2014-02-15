@@ -3,14 +3,14 @@ class OrganizedStylesheet
 
     def organized_view
       OrganizedView.new.tap do |ov|
-        ov.backgroundColor = UIColor.redColor
+        ov.backgroundColor = UIColor.blackColor
       end
     end
 
     def header
       UIView.new.tap do |v|
         v.frame = [[0, 0], [320, 100]]
-        v.backgroundColor = UIColor.blueColor
+        v.backgroundColor = UIColor.purpleColor
       end
     end
 
@@ -28,7 +28,7 @@ class OrganizedStylesheet
       UIButton.new.tap do |b|
         b.frame = [[20, 200], [280, 50]]
         b.setTitle("Press Me", forState: UIControlStateNormal)
-        b.backgroundColor = UIColor.greenColor
+        b.backgroundColor = UIColor.grayColor
         b.layer.cornerRadius = 5.0
       end
     end
