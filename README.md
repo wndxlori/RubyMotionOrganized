@@ -13,3 +13,7 @@ My aims are:
 6. DRY up our code
 7. Fix common view and controller code smells like Long Method and Large Class
 8. Not require any gems, but allow for them to be used
+
+## Please Contribute
+
+I can come up with as much as possible on my own, but to really get something solid going, we need to test this out in the wild. If you could try out writing applications using the structure and code in this repo, then forking the project and submitting a pull request with your suggestions, we can make a standard way of doing things that everyone will be familiar with.
