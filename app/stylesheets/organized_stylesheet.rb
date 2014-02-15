@@ -33,5 +33,13 @@ class OrganizedStylesheet
       end
     end
 
+    # style inheritance
+    def other_button
+      button.tap do |ob|
+        ob.frame = [[20, 275], [280, 50]]
+        ob.setTitle("Or me", forState: UIControlStateNormal)
+      end
+    end
+
   end
 end

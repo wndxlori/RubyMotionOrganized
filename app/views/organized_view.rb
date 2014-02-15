@@ -14,6 +14,12 @@ class OrganizedView < UIView
           b.addTarget(ov, action: 'button_clicked', forControlEvents: UIControlEventTouchUpInside)
         end
       )
+
+      ov.addSubview(
+        OrganizedStylesheet.other_button.tap do |b|
+          b.addTarget(ov, action: 'button_clicked', forControlEvents: UIControlEventTouchUpInside)
+        end
+      )
     end
   end
 
