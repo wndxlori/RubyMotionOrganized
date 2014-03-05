@@ -2,12 +2,12 @@ class OrganizedController < UIViewController
   def init
     super.tap do |oc|
       oc.title = "Organized"
-
-      oc.edgesForExtendedLayout = UIRectEdgeNone
-
-      oc.view = OrganizedStylesheet.organized_view
-      oc.view.delegate = self.organized_view_delegate
     end
+  end
+
+  def loadView
+    self.view = OrganizedStylesheet.organized_view
+    self.view.delegate = self.organized_view_delegate
   end
 
   def organized_view_delegate

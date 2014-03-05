@@ -1,4 +1,8 @@
-class OrganizedView < UIView
+class OrganizedView < UIScrollView
+
+  # using UIScrollView to fix navigation bar overlap problem
+  # http://blog.motioninmotion.tv/fixing-the-ios-7-navigation-bar-overlap-problem
+
   attr_accessor :delegate, :title
 
   def init

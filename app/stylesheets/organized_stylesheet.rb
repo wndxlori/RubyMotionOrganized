@@ -3,7 +3,7 @@ class OrganizedStylesheet
 
     def organized_view
       OrganizedView.new.tap do |ov|
-        ov.backgroundColor = UIColor.blackColor
+        ov.backgroundColor = UIColor.redColor
       end
     end
 

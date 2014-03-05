@@ -1,6 +1,8 @@
 # Organized RubyMotion
 ## Analyzing ways to better structure RubyMotion apps
 
+**PLEASE READ CURRENT ISSUES AS THEY WILL VOICE VALID CONCERNS**
+
 I'm currently spending a lot of time looking for the best way to structure RubyMotion applications so classes follow the single responsibility principle (or at least as close as possible), without moving too far away from how traditional iOS and OS X projects are structured.
 
 My aims are:
